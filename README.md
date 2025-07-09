@@ -21,9 +21,10 @@ To access all features, use the following admin credentials:
 ### Installation
 
 Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/ZooManager-Laravel.git
-   cd ZooManager-Laravel
+```bash
+git clone https://github.com/yourusername/ZooManager-Laravel.git
+cd ZooManager-Laravel
+```
 Install dependencies:
 
 ```bash
