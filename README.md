@@ -26,30 +26,26 @@ To access all features, use the following admin credentials:
    cd ZooManager-Laravel
 Install dependencies:
 
-bash
-Copy
-Edit
+```bash
 composer install
 npm install && npm run dev
+```
 Copy .env and configure your environment:
 
-bash
-Copy
-Edit
+```bash
 cp .env.example .env
 php artisan key:generate
+```
 Set up your database credentials in .env, then run:
 
-bash
-Copy
-Edit
+```bash
 php artisan migrate --seed
+```
 Start the server:
 
-bash
-Copy
-Edit
+```bash
 php artisan serve
+```
 📌 Available Routes
 Public Routes
 /main – Home page
@@ -93,7 +89,7 @@ Admin-only access to CRUD operations
 
 Animal archive management
 
-Responsive UI (if applicable)
+Responsive UI
 
 RESTful route structure
 
