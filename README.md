@@ -20,7 +20,7 @@ To access all features, use the following admin credentials:
 
 ### Installation
 
-1. Clone the repository:
+Clone the repository:
    ```bash
    git clone https://github.com/yourusername/ZooManager-Laravel.git
    cd ZooManager-Laravel
@@ -46,8 +46,10 @@ Start the server:
 ```bash
 php artisan serve
 ```
-📌 Available Routes
+## 📌 Available Routes
+
 Public Routes
+
 /main – Home page
 
 /login – User login
@@ -55,6 +57,7 @@ Public Routes
 /register – User registration
 
 Authenticated Routes
+
 /enclosures – List all enclosures
 
 /getEnclosure/{id} – View enclosure details
@@ -71,7 +74,7 @@ Authenticated Routes
 
 ⚠️ Access to creation and editing routes is restricted to admin users.
 
-📁 Project Structure
+## 📁 Project Structure
 app/ – Application logic
 
 routes/ – Web routes
@@ -82,7 +85,7 @@ public/ – Public assets
 
 database/ – Migrations and seeders
 
-🛠 Features
+## 🛠 Features
 User authentication
 
 Admin-only access to CRUD operations
@@ -93,5 +96,5 @@ Responsive UI
 
 RESTful route structure
 
-🤝 Contribution
+## 🤝 Contribution
 This project was created as part of a university course. External contributions are not expected, but suggestions are welcome.
